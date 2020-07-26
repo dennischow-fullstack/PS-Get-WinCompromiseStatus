@@ -30,7 +30,7 @@ Get-AjayHackedStatus -host "hostname.local"
 By: Dennis Chow
 dchow[AT]xtecsystems.com
 #>
-function Get-AjayHackedStatus {
+function Get-WinCompromiseStatus {
 	param( [string]$host )
 
 	#get all processes less than 1MB
