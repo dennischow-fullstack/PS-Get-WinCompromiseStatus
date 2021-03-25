@@ -23,8 +23,8 @@ Also note: This only finds low hanging
 fruit in user space portion of the OS.
 
 Usage: 
-Import-Module AjayAPI.psm1
-Get-AjayHackedStatus -host "hostname.local"
+Import-Module Get-WinCompromiseStatus.psm1
+Get-WinCompromiseStatus -host "hostname.local"
 
 
 By: Dennis Chow
